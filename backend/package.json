@@ -2,13 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
+  "description": "",
   "scripts": {
-    "test": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@google/genai": "^1.30.0",
     "cors": "^2.8.5",
